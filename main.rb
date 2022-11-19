@@ -18,7 +18,7 @@ def partthree
   p 'Введите какое количество строк надо.'
   count = gets.to_i
   str_array = []
-  (0...count).each do |i|
+  (0...count).each do |_i|
     str = gets
     str_array << str
   end
@@ -28,7 +28,7 @@ end
 p 'Лабораторная работа 5'
 choise = 0
 ObjectOne = LaboratoryOne.new
-while choise != 4 do
+while choise != 4
   print "1 часть\n"
   print "2 часть\n"
   print "3 часть\n"
